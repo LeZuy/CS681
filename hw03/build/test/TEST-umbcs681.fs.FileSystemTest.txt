@@ -1,0 +1,6 @@
+Testcase: umbcs681.fs.FileSystemTest
+Test: testAppendRootDirsWithANewRoot() took 0 milli sec(s)
+Test: testSingletonReturnsSameInstance() took 1 milli sec(s)
+Test: testGetRootDirsReturnsReturnUmbcs681() took 1 milli sec(s)
+Test: testGetRootDirs() took 0 milli sec(s)
+Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 5 milli sec(s)

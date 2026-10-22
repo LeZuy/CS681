@@ -1,0 +1,11 @@
+Testcase: umbcs681.fs.FileTest
+Test: testFileAExtensionJava() took 1 milli sec(s)
+Test: testFileBuildEqualityCheck() took 1 milli sec(s)
+Test: testFileBEqualityCheck() took 0 milli sec(s)
+Test: testFileReadmeEqualityCheck() took 0 milli sec(s)
+Test: testFileAEqualityCheck() took 1 milli sec(s)
+Test: testFileAIsDirectory() took 1 milli sec(s)
+Test: gettersReturnConstructorValues() took 0 milli sec(s)
+Test: testFileBuildExtensionJava() took 0 milli sec(s)
+Test: testFileReadmeExtensionJava() took 1 milli sec(s)
+Tests run: 9, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 9 milli sec(s)

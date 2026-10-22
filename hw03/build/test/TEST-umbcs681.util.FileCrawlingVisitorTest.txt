@@ -1,0 +1,10 @@
+Testcase: umbcs681.util.FileCrawlingVisitorTest
+Test: testFileCrawlingVisitorRootDirReturn4Files() took 2 milli sec(s)
+Test: testFileCrawlingVisitorGetAFile() took 1 milli sec(s)
+Test: testFilesSummarize() took 3 milli sec(s)
+Test: testFileCrawlingVisitorHw1DirReturn3Files() took 1 milli sec(s)
+Test: testFileCrawlingVisitorConstructorReturn0File() took 1 milli sec(s)
+Test: testFileCrawlVisiterGetFileAfterOct10() took 2 milli sec(s)
+Test: testFileCrawlVisiterGetXMLFile() took 1 milli sec(s)
+Test: testFileCrawlVisiterGetJavaFile() took 2 milli sec(s)
+Tests run: 8, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 15 milli sec(s)

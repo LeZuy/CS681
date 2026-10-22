@@ -1,0 +1,2337 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Unit Test Results.</title>
+        <style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+        <script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['umbcs681.fs.DirectoryTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/duy/study/cs681/hw03/build.xml';
+    
+        cur['ant.file.fs-stream-junit'] = '/home/duy/study/cs681/hw03/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.fs-stream-junit'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.home.ivy.instance'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '21';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.library.dir.ivy.instance'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'clean';
+    
+        cur['ant.project.invoked-targets'] = 'clean';
+    
+        cur['ant.project.name'] = 'fs-stream-junit';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.14 compiled on September 25 2023';
+    
+        cur['basedir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['basedir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['bin'] = '/home/duy/study/cs681/hw03/build/main';
+    
+        cur['bin.test'] = '/home/duy/study/cs681/hw03/build/test';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['file.separator.ivy.instance'] = '/';
+    
+        cur['ivy.basedir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.basedir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.build.artifacts.dir'] = '/home/duy/study/cs681/hw03/build/artifacts';
+    
+        cur['ivy.build.artifacts.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/build/artifacts';
+    
+        cur['ivy.buildlist.ivyfilepath'] = 'ivy.xml';
+    
+        cur['ivy.buildlist.ivyfilepath.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.cache.dir'] = '/home/duy/.ivy2/cache';
+    
+        cur['ivy.cache.dir.ivy.instance'] = '/home/duy/.ivy2/cache';
+    
+        cur['ivy.cache.ttl.default'] = '10s';
+    
+        cur['ivy.cache.ttl.default.ivy.instance'] = '10s';
+    
+        cur['ivy.checksums'] = 'sha1,md5';
+    
+        cur['ivy.checksums.ivy.instance'] = 'sha1,md5';
+    
+        cur['ivy.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.conf.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.configurations'] = '*';
+    
+        cur['ivy.configurations.ivy.instance'] = '*';
+    
+        cur['ivy.default.always.check.exact.revision'] = 'false';
+    
+        cur['ivy.default.always.check.exact.revision.ivy.instance'] = 'false';
+    
+        cur['ivy.default.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.ivy.user.dir'] = '/home/duy/.ivy2';
+    
+        cur['ivy.default.ivy.user.dir.ivy.instance'] = '/home/duy/.ivy2';
+    
+        cur['ivy.default.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.deliver.ivy.pattern'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.deliver.ivy.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.dep.file'] = 'ivy.xml';
+    
+        cur['ivy.dep.file.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.deps.changed'] = 'false';
+    
+        cur['ivy.distrib.dir'] = '/home/duy/study/cs681/hw03/distrib';
+    
+        cur['ivy.distrib.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib';
+    
+        cur['ivy.home'] = '/home/duy/.ivy2';
+    
+        cur['ivy.home.ivy.instance'] = '/home/duy/.ivy2';
+    
+        cur['ivy.lib'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.lib.dir'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.lib.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.local.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.root'] = '/home/duy/.ivy2/local';
+    
+        cur['ivy.local.default.root.ivy.instance'] = '/home/duy/.ivy2/local';
+    
+        cur['ivy.log.modules.in.use'] = 'false';
+    
+        cur['ivy.log.modules.in.use.ivy.instance'] = 'false';
+    
+        cur['ivy.module'] = 'cs680';
+    
+        cur['ivy.nb.targets.copied'] = '0';
+    
+        cur['ivy.organisation'] = 'umb.edu';
+    
+        cur['ivy.parents.count'] = '0';
+    
+        cur['ivy.project.dir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.project.dir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.publish.src.artifacts.pattern'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.publish.src.artifacts.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.report.output.pattern'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.report.output.pattern.ivy.instance'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.resolve.default.type.filter'] = '*';
+    
+        cur['ivy.resolve.default.type.filter.ivy.instance'] = '*';
+    
+        cur['ivy.resolved.configurations'] = 'default';
+    
+        cur['ivy.resolved.file'] = '/home/duy/study/cs681/hw03/ivy.xml';
+    
+        cur['ivy.resolver.default.check.modified'] = 'false';
+    
+        cur['ivy.resolver.default.check.modified.ivy.instance'] = 'false';
+    
+        cur['ivy.retrieve.pattern'] = '/home/duy/study/cs681/hw03/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.retrieve.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.revision'] = 'working@NCLab-9020';
+    
+        cur['ivy.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.file'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.file.ivy.instance'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.settings.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.shared.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.root'] = '/home/duy/.ivy2/shared';
+    
+        cur['ivy.shared.default.root.ivy.instance'] = '/home/duy/.ivy2/shared';
+    
+        cur['ivy.status'] = 'integration';
+    
+        cur['ivy.status.ivy.instance'] = 'integration';
+    
+        cur['ivy.targets.copied'] = 'false';
+    
+        cur['ivy.version'] = 'non official version';
+    
+        cur['java.class.path'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junitlauncher.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar';
+    
+        cur['java.class.path.ivy.instance'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junitlauncher.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar';
+    
+        cur['java.class.version'] = '65.0';
+    
+        cur['java.class.version.ivy.instance'] = '65.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-21-openjdk-amd64';
+    
+        cur['java.home.ivy.instance'] = '/usr/lib/jvm/java-21-openjdk-amd64';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.io.tmpdir.ivy.instance'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.library.path.ivy.instance'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.name.ivy.instance'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.runtime.version.ivy.instance'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.name.ivy.instance'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '21';
+    
+        cur['java.specification.version.ivy.instance'] = '21';
+    
+        cur['java.vendor'] = 'Ubuntu';
+    
+        cur['java.vendor.ivy.instance'] = 'Ubuntu';
+    
+        cur['java.vendor.url'] = 'https://ubuntu.com/';
+    
+        cur['java.vendor.url.bug'] = 'https://bugs.launchpad.net/ubuntu/+source/openjdk-21';
+    
+        cur['java.vendor.url.bug.ivy.instance'] = 'https://bugs.launchpad.net/ubuntu/+source/openjdk-21';
+    
+        cur['java.vendor.url.ivy.instance'] = 'https://ubuntu.com/';
+    
+        cur['java.version'] = '21.0.12.1';
+    
+        cur['java.version.date'] = '2026-08-18';
+    
+        cur['java.version.date.ivy.instance'] = '2026-08-18';
+    
+        cur['java.version.ivy.instance'] = '21.0.12.1';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.compressedOopsMode.ivy.instance'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode, sharing';
+    
+        cur['java.vm.info.ivy.instance'] = 'mixed mode, sharing';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.name.ivy.instance'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.name.ivy.instance'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '21';
+    
+        cur['java.vm.specification.version.ivy.instance'] = '21';
+    
+        cur['java.vm.vendor'] = 'Ubuntu';
+    
+        cur['java.vm.vendor.ivy.instance'] = 'Ubuntu';
+    
+        cur['java.vm.version'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.vm.version.ivy.instance'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['jdk.debug.ivy.instance'] = 'release';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['line.separator.ivy.instance'] = ' ';
+    
+        cur['native.encoding'] = 'UTF-8';
+    
+        cur['native.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.arch.ivy.instance'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.name.ivy.instance'] = 'Linux';
+    
+        cur['os.version'] = '7.0.0-38-generic';
+    
+        cur['os.version.ivy.instance'] = '7.0.0-38-generic';
+    
+        cur['path.separator'] = ':';
+    
+        cur['path.separator.ivy.instance'] = ':';
+    
+        cur['src'] = '/home/duy/study/cs681/hw03/src/main';
+    
+        cur['src.test'] = '/home/duy/study/cs681/hw03/src/test';
+    
+        cur['stderr.encoding'] = 'UTF-8';
+    
+        cur['stderr.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['stdout.encoding'] = 'UTF-8';
+    
+        cur['stdout.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.arch.data.model.ivy.instance'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-21-openjdk-amd64/lib';
+    
+        cur['sun.boot.library.path.ivy.instance'] = '/usr/lib/jvm/java-21-openjdk-amd64/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.endian.ivy.instance'] = 'little';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.io.unicode.encoding.ivy.instance'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.launch.Launcher -cp  -f build.xml';
+    
+        cur['sun.java.command.ivy.instance'] = 'org.apache.tools.ant.launch.Launcher -cp  -f build.xml';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.java.launcher.ivy.instance'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.jnu.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.management.compiler.ivy.instance'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.country.ivy.instance'] = 'US';
+    
+        cur['user.dir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['user.dir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['user.home'] = '/home/duy';
+    
+        cur['user.home.ivy.instance'] = '/home/duy';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.language.ivy.instance'] = 'en';
+    
+        cur['user.name'] = 'duy';
+    
+        cur['user.name.ivy.instance'] = 'duy';
+    
+        cur['user.timezone'] = 'America/New_York';
+    
+        cur['user.timezone.ivy.instance'] = 'America/New_York';
+    
+    cur = TestCases['umbcs681.fs.FileSystemTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/duy/study/cs681/hw03/build.xml';
+    
+        cur['ant.file.fs-stream-junit'] = '/home/duy/study/cs681/hw03/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.fs-stream-junit'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.home.ivy.instance'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '21';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.library.dir.ivy.instance'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'clean';
+    
+        cur['ant.project.invoked-targets'] = 'clean';
+    
+        cur['ant.project.name'] = 'fs-stream-junit';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.14 compiled on September 25 2023';
+    
+        cur['basedir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['basedir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['bin'] = '/home/duy/study/cs681/hw03/build/main';
+    
+        cur['bin.test'] = '/home/duy/study/cs681/hw03/build/test';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['file.separator.ivy.instance'] = '/';
+    
+        cur['ivy.basedir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.basedir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.build.artifacts.dir'] = '/home/duy/study/cs681/hw03/build/artifacts';
+    
+        cur['ivy.build.artifacts.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/build/artifacts';
+    
+        cur['ivy.buildlist.ivyfilepath'] = 'ivy.xml';
+    
+        cur['ivy.buildlist.ivyfilepath.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.cache.dir'] = '/home/duy/.ivy2/cache';
+    
+        cur['ivy.cache.dir.ivy.instance'] = '/home/duy/.ivy2/cache';
+    
+        cur['ivy.cache.ttl.default'] = '10s';
+    
+        cur['ivy.cache.ttl.default.ivy.instance'] = '10s';
+    
+        cur['ivy.checksums'] = 'sha1,md5';
+    
+        cur['ivy.checksums.ivy.instance'] = 'sha1,md5';
+    
+        cur['ivy.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.conf.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.configurations'] = '*';
+    
+        cur['ivy.configurations.ivy.instance'] = '*';
+    
+        cur['ivy.default.always.check.exact.revision'] = 'false';
+    
+        cur['ivy.default.always.check.exact.revision.ivy.instance'] = 'false';
+    
+        cur['ivy.default.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.ivy.user.dir'] = '/home/duy/.ivy2';
+    
+        cur['ivy.default.ivy.user.dir.ivy.instance'] = '/home/duy/.ivy2';
+    
+        cur['ivy.default.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.deliver.ivy.pattern'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.deliver.ivy.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.dep.file'] = 'ivy.xml';
+    
+        cur['ivy.dep.file.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.deps.changed'] = 'false';
+    
+        cur['ivy.distrib.dir'] = '/home/duy/study/cs681/hw03/distrib';
+    
+        cur['ivy.distrib.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib';
+    
+        cur['ivy.home'] = '/home/duy/.ivy2';
+    
+        cur['ivy.home.ivy.instance'] = '/home/duy/.ivy2';
+    
+        cur['ivy.lib'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.lib.dir'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.lib.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.local.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.root'] = '/home/duy/.ivy2/local';
+    
+        cur['ivy.local.default.root.ivy.instance'] = '/home/duy/.ivy2/local';
+    
+        cur['ivy.log.modules.in.use'] = 'false';
+    
+        cur['ivy.log.modules.in.use.ivy.instance'] = 'false';
+    
+        cur['ivy.module'] = 'cs680';
+    
+        cur['ivy.nb.targets.copied'] = '0';
+    
+        cur['ivy.organisation'] = 'umb.edu';
+    
+        cur['ivy.parents.count'] = '0';
+    
+        cur['ivy.project.dir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.project.dir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.publish.src.artifacts.pattern'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.publish.src.artifacts.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.report.output.pattern'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.report.output.pattern.ivy.instance'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.resolve.default.type.filter'] = '*';
+    
+        cur['ivy.resolve.default.type.filter.ivy.instance'] = '*';
+    
+        cur['ivy.resolved.configurations'] = 'default';
+    
+        cur['ivy.resolved.file'] = '/home/duy/study/cs681/hw03/ivy.xml';
+    
+        cur['ivy.resolver.default.check.modified'] = 'false';
+    
+        cur['ivy.resolver.default.check.modified.ivy.instance'] = 'false';
+    
+        cur['ivy.retrieve.pattern'] = '/home/duy/study/cs681/hw03/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.retrieve.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.revision'] = 'working@NCLab-9020';
+    
+        cur['ivy.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.file'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.file.ivy.instance'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.settings.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.shared.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.root'] = '/home/duy/.ivy2/shared';
+    
+        cur['ivy.shared.default.root.ivy.instance'] = '/home/duy/.ivy2/shared';
+    
+        cur['ivy.status'] = 'integration';
+    
+        cur['ivy.status.ivy.instance'] = 'integration';
+    
+        cur['ivy.targets.copied'] = 'false';
+    
+        cur['ivy.version'] = 'non official version';
+    
+        cur['java.class.path'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junitlauncher.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar';
+    
+        cur['java.class.path.ivy.instance'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junitlauncher.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar';
+    
+        cur['java.class.version'] = '65.0';
+    
+        cur['java.class.version.ivy.instance'] = '65.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-21-openjdk-amd64';
+    
+        cur['java.home.ivy.instance'] = '/usr/lib/jvm/java-21-openjdk-amd64';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.io.tmpdir.ivy.instance'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.library.path.ivy.instance'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.name.ivy.instance'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.runtime.version.ivy.instance'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.name.ivy.instance'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '21';
+    
+        cur['java.specification.version.ivy.instance'] = '21';
+    
+        cur['java.vendor'] = 'Ubuntu';
+    
+        cur['java.vendor.ivy.instance'] = 'Ubuntu';
+    
+        cur['java.vendor.url'] = 'https://ubuntu.com/';
+    
+        cur['java.vendor.url.bug'] = 'https://bugs.launchpad.net/ubuntu/+source/openjdk-21';
+    
+        cur['java.vendor.url.bug.ivy.instance'] = 'https://bugs.launchpad.net/ubuntu/+source/openjdk-21';
+    
+        cur['java.vendor.url.ivy.instance'] = 'https://ubuntu.com/';
+    
+        cur['java.version'] = '21.0.12.1';
+    
+        cur['java.version.date'] = '2026-08-18';
+    
+        cur['java.version.date.ivy.instance'] = '2026-08-18';
+    
+        cur['java.version.ivy.instance'] = '21.0.12.1';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.compressedOopsMode.ivy.instance'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode, sharing';
+    
+        cur['java.vm.info.ivy.instance'] = 'mixed mode, sharing';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.name.ivy.instance'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.name.ivy.instance'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '21';
+    
+        cur['java.vm.specification.version.ivy.instance'] = '21';
+    
+        cur['java.vm.vendor'] = 'Ubuntu';
+    
+        cur['java.vm.vendor.ivy.instance'] = 'Ubuntu';
+    
+        cur['java.vm.version'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.vm.version.ivy.instance'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['jdk.debug.ivy.instance'] = 'release';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['line.separator.ivy.instance'] = ' ';
+    
+        cur['native.encoding'] = 'UTF-8';
+    
+        cur['native.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.arch.ivy.instance'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.name.ivy.instance'] = 'Linux';
+    
+        cur['os.version'] = '7.0.0-38-generic';
+    
+        cur['os.version.ivy.instance'] = '7.0.0-38-generic';
+    
+        cur['path.separator'] = ':';
+    
+        cur['path.separator.ivy.instance'] = ':';
+    
+        cur['src'] = '/home/duy/study/cs681/hw03/src/main';
+    
+        cur['src.test'] = '/home/duy/study/cs681/hw03/src/test';
+    
+        cur['stderr.encoding'] = 'UTF-8';
+    
+        cur['stderr.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['stdout.encoding'] = 'UTF-8';
+    
+        cur['stdout.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.arch.data.model.ivy.instance'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-21-openjdk-amd64/lib';
+    
+        cur['sun.boot.library.path.ivy.instance'] = '/usr/lib/jvm/java-21-openjdk-amd64/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.endian.ivy.instance'] = 'little';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.io.unicode.encoding.ivy.instance'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.launch.Launcher -cp  -f build.xml';
+    
+        cur['sun.java.command.ivy.instance'] = 'org.apache.tools.ant.launch.Launcher -cp  -f build.xml';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.java.launcher.ivy.instance'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.jnu.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.management.compiler.ivy.instance'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.country.ivy.instance'] = 'US';
+    
+        cur['user.dir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['user.dir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['user.home'] = '/home/duy';
+    
+        cur['user.home.ivy.instance'] = '/home/duy';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.language.ivy.instance'] = 'en';
+    
+        cur['user.name'] = 'duy';
+    
+        cur['user.name.ivy.instance'] = 'duy';
+    
+        cur['user.timezone'] = 'America/New_York';
+    
+        cur['user.timezone.ivy.instance'] = 'America/New_York';
+    
+    cur = TestCases['umbcs681.fs.FileTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/duy/study/cs681/hw03/build.xml';
+    
+        cur['ant.file.fs-stream-junit'] = '/home/duy/study/cs681/hw03/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.fs-stream-junit'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.home.ivy.instance'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '21';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.library.dir.ivy.instance'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'clean';
+    
+        cur['ant.project.invoked-targets'] = 'clean';
+    
+        cur['ant.project.name'] = 'fs-stream-junit';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.14 compiled on September 25 2023';
+    
+        cur['basedir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['basedir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['bin'] = '/home/duy/study/cs681/hw03/build/main';
+    
+        cur['bin.test'] = '/home/duy/study/cs681/hw03/build/test';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['file.separator.ivy.instance'] = '/';
+    
+        cur['ivy.basedir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.basedir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.build.artifacts.dir'] = '/home/duy/study/cs681/hw03/build/artifacts';
+    
+        cur['ivy.build.artifacts.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/build/artifacts';
+    
+        cur['ivy.buildlist.ivyfilepath'] = 'ivy.xml';
+    
+        cur['ivy.buildlist.ivyfilepath.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.cache.dir'] = '/home/duy/.ivy2/cache';
+    
+        cur['ivy.cache.dir.ivy.instance'] = '/home/duy/.ivy2/cache';
+    
+        cur['ivy.cache.ttl.default'] = '10s';
+    
+        cur['ivy.cache.ttl.default.ivy.instance'] = '10s';
+    
+        cur['ivy.checksums'] = 'sha1,md5';
+    
+        cur['ivy.checksums.ivy.instance'] = 'sha1,md5';
+    
+        cur['ivy.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.conf.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.configurations'] = '*';
+    
+        cur['ivy.configurations.ivy.instance'] = '*';
+    
+        cur['ivy.default.always.check.exact.revision'] = 'false';
+    
+        cur['ivy.default.always.check.exact.revision.ivy.instance'] = 'false';
+    
+        cur['ivy.default.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.ivy.user.dir'] = '/home/duy/.ivy2';
+    
+        cur['ivy.default.ivy.user.dir.ivy.instance'] = '/home/duy/.ivy2';
+    
+        cur['ivy.default.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.deliver.ivy.pattern'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.deliver.ivy.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.dep.file'] = 'ivy.xml';
+    
+        cur['ivy.dep.file.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.deps.changed'] = 'false';
+    
+        cur['ivy.distrib.dir'] = '/home/duy/study/cs681/hw03/distrib';
+    
+        cur['ivy.distrib.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib';
+    
+        cur['ivy.home'] = '/home/duy/.ivy2';
+    
+        cur['ivy.home.ivy.instance'] = '/home/duy/.ivy2';
+    
+        cur['ivy.lib'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.lib.dir'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.lib.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.local.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.root'] = '/home/duy/.ivy2/local';
+    
+        cur['ivy.local.default.root.ivy.instance'] = '/home/duy/.ivy2/local';
+    
+        cur['ivy.log.modules.in.use'] = 'false';
+    
+        cur['ivy.log.modules.in.use.ivy.instance'] = 'false';
+    
+        cur['ivy.module'] = 'cs680';
+    
+        cur['ivy.nb.targets.copied'] = '0';
+    
+        cur['ivy.organisation'] = 'umb.edu';
+    
+        cur['ivy.parents.count'] = '0';
+    
+        cur['ivy.project.dir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.project.dir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.publish.src.artifacts.pattern'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.publish.src.artifacts.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.report.output.pattern'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.report.output.pattern.ivy.instance'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.resolve.default.type.filter'] = '*';
+    
+        cur['ivy.resolve.default.type.filter.ivy.instance'] = '*';
+    
+        cur['ivy.resolved.configurations'] = 'default';
+    
+        cur['ivy.resolved.file'] = '/home/duy/study/cs681/hw03/ivy.xml';
+    
+        cur['ivy.resolver.default.check.modified'] = 'false';
+    
+        cur['ivy.resolver.default.check.modified.ivy.instance'] = 'false';
+    
+        cur['ivy.retrieve.pattern'] = '/home/duy/study/cs681/hw03/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.retrieve.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.revision'] = 'working@NCLab-9020';
+    
+        cur['ivy.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.file'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.file.ivy.instance'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.settings.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.shared.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.root'] = '/home/duy/.ivy2/shared';
+    
+        cur['ivy.shared.default.root.ivy.instance'] = '/home/duy/.ivy2/shared';
+    
+        cur['ivy.status'] = 'integration';
+    
+        cur['ivy.status.ivy.instance'] = 'integration';
+    
+        cur['ivy.targets.copied'] = 'false';
+    
+        cur['ivy.version'] = 'non official version';
+    
+        cur['java.class.path'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junitlauncher.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar';
+    
+        cur['java.class.path.ivy.instance'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junitlauncher.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar';
+    
+        cur['java.class.version'] = '65.0';
+    
+        cur['java.class.version.ivy.instance'] = '65.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-21-openjdk-amd64';
+    
+        cur['java.home.ivy.instance'] = '/usr/lib/jvm/java-21-openjdk-amd64';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.io.tmpdir.ivy.instance'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.library.path.ivy.instance'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.name.ivy.instance'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.runtime.version.ivy.instance'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.name.ivy.instance'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '21';
+    
+        cur['java.specification.version.ivy.instance'] = '21';
+    
+        cur['java.vendor'] = 'Ubuntu';
+    
+        cur['java.vendor.ivy.instance'] = 'Ubuntu';
+    
+        cur['java.vendor.url'] = 'https://ubuntu.com/';
+    
+        cur['java.vendor.url.bug'] = 'https://bugs.launchpad.net/ubuntu/+source/openjdk-21';
+    
+        cur['java.vendor.url.bug.ivy.instance'] = 'https://bugs.launchpad.net/ubuntu/+source/openjdk-21';
+    
+        cur['java.vendor.url.ivy.instance'] = 'https://ubuntu.com/';
+    
+        cur['java.version'] = '21.0.12.1';
+    
+        cur['java.version.date'] = '2026-08-18';
+    
+        cur['java.version.date.ivy.instance'] = '2026-08-18';
+    
+        cur['java.version.ivy.instance'] = '21.0.12.1';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.compressedOopsMode.ivy.instance'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode, sharing';
+    
+        cur['java.vm.info.ivy.instance'] = 'mixed mode, sharing';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.name.ivy.instance'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.name.ivy.instance'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '21';
+    
+        cur['java.vm.specification.version.ivy.instance'] = '21';
+    
+        cur['java.vm.vendor'] = 'Ubuntu';
+    
+        cur['java.vm.vendor.ivy.instance'] = 'Ubuntu';
+    
+        cur['java.vm.version'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.vm.version.ivy.instance'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['jdk.debug.ivy.instance'] = 'release';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['line.separator.ivy.instance'] = ' ';
+    
+        cur['native.encoding'] = 'UTF-8';
+    
+        cur['native.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.arch.ivy.instance'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.name.ivy.instance'] = 'Linux';
+    
+        cur['os.version'] = '7.0.0-38-generic';
+    
+        cur['os.version.ivy.instance'] = '7.0.0-38-generic';
+    
+        cur['path.separator'] = ':';
+    
+        cur['path.separator.ivy.instance'] = ':';
+    
+        cur['src'] = '/home/duy/study/cs681/hw03/src/main';
+    
+        cur['src.test'] = '/home/duy/study/cs681/hw03/src/test';
+    
+        cur['stderr.encoding'] = 'UTF-8';
+    
+        cur['stderr.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['stdout.encoding'] = 'UTF-8';
+    
+        cur['stdout.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.arch.data.model.ivy.instance'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-21-openjdk-amd64/lib';
+    
+        cur['sun.boot.library.path.ivy.instance'] = '/usr/lib/jvm/java-21-openjdk-amd64/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.endian.ivy.instance'] = 'little';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.io.unicode.encoding.ivy.instance'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.launch.Launcher -cp  -f build.xml';
+    
+        cur['sun.java.command.ivy.instance'] = 'org.apache.tools.ant.launch.Launcher -cp  -f build.xml';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.java.launcher.ivy.instance'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.jnu.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.management.compiler.ivy.instance'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.country.ivy.instance'] = 'US';
+    
+        cur['user.dir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['user.dir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['user.home'] = '/home/duy';
+    
+        cur['user.home.ivy.instance'] = '/home/duy';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.language.ivy.instance'] = 'en';
+    
+        cur['user.name'] = 'duy';
+    
+        cur['user.name.ivy.instance'] = 'duy';
+    
+        cur['user.timezone'] = 'America/New_York';
+    
+        cur['user.timezone.ivy.instance'] = 'America/New_York';
+    
+    cur = TestCases['umbcs681.fs.LinkTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/duy/study/cs681/hw03/build.xml';
+    
+        cur['ant.file.fs-stream-junit'] = '/home/duy/study/cs681/hw03/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.fs-stream-junit'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.home.ivy.instance'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '21';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.library.dir.ivy.instance'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'clean';
+    
+        cur['ant.project.invoked-targets'] = 'clean';
+    
+        cur['ant.project.name'] = 'fs-stream-junit';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.14 compiled on September 25 2023';
+    
+        cur['basedir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['basedir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['bin'] = '/home/duy/study/cs681/hw03/build/main';
+    
+        cur['bin.test'] = '/home/duy/study/cs681/hw03/build/test';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['file.separator.ivy.instance'] = '/';
+    
+        cur['ivy.basedir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.basedir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.build.artifacts.dir'] = '/home/duy/study/cs681/hw03/build/artifacts';
+    
+        cur['ivy.build.artifacts.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/build/artifacts';
+    
+        cur['ivy.buildlist.ivyfilepath'] = 'ivy.xml';
+    
+        cur['ivy.buildlist.ivyfilepath.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.cache.dir'] = '/home/duy/.ivy2/cache';
+    
+        cur['ivy.cache.dir.ivy.instance'] = '/home/duy/.ivy2/cache';
+    
+        cur['ivy.cache.ttl.default'] = '10s';
+    
+        cur['ivy.cache.ttl.default.ivy.instance'] = '10s';
+    
+        cur['ivy.checksums'] = 'sha1,md5';
+    
+        cur['ivy.checksums.ivy.instance'] = 'sha1,md5';
+    
+        cur['ivy.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.conf.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.configurations'] = '*';
+    
+        cur['ivy.configurations.ivy.instance'] = '*';
+    
+        cur['ivy.default.always.check.exact.revision'] = 'false';
+    
+        cur['ivy.default.always.check.exact.revision.ivy.instance'] = 'false';
+    
+        cur['ivy.default.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.ivy.user.dir'] = '/home/duy/.ivy2';
+    
+        cur['ivy.default.ivy.user.dir.ivy.instance'] = '/home/duy/.ivy2';
+    
+        cur['ivy.default.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.deliver.ivy.pattern'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.deliver.ivy.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.dep.file'] = 'ivy.xml';
+    
+        cur['ivy.dep.file.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.deps.changed'] = 'false';
+    
+        cur['ivy.distrib.dir'] = '/home/duy/study/cs681/hw03/distrib';
+    
+        cur['ivy.distrib.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib';
+    
+        cur['ivy.home'] = '/home/duy/.ivy2';
+    
+        cur['ivy.home.ivy.instance'] = '/home/duy/.ivy2';
+    
+        cur['ivy.lib'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.lib.dir'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.lib.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.local.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.root'] = '/home/duy/.ivy2/local';
+    
+        cur['ivy.local.default.root.ivy.instance'] = '/home/duy/.ivy2/local';
+    
+        cur['ivy.log.modules.in.use'] = 'false';
+    
+        cur['ivy.log.modules.in.use.ivy.instance'] = 'false';
+    
+        cur['ivy.module'] = 'cs680';
+    
+        cur['ivy.nb.targets.copied'] = '0';
+    
+        cur['ivy.organisation'] = 'umb.edu';
+    
+        cur['ivy.parents.count'] = '0';
+    
+        cur['ivy.project.dir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.project.dir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.publish.src.artifacts.pattern'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.publish.src.artifacts.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.report.output.pattern'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.report.output.pattern.ivy.instance'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.resolve.default.type.filter'] = '*';
+    
+        cur['ivy.resolve.default.type.filter.ivy.instance'] = '*';
+    
+        cur['ivy.resolved.configurations'] = 'default';
+    
+        cur['ivy.resolved.file'] = '/home/duy/study/cs681/hw03/ivy.xml';
+    
+        cur['ivy.resolver.default.check.modified'] = 'false';
+    
+        cur['ivy.resolver.default.check.modified.ivy.instance'] = 'false';
+    
+        cur['ivy.retrieve.pattern'] = '/home/duy/study/cs681/hw03/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.retrieve.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.revision'] = 'working@NCLab-9020';
+    
+        cur['ivy.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.file'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.file.ivy.instance'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.settings.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.shared.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.root'] = '/home/duy/.ivy2/shared';
+    
+        cur['ivy.shared.default.root.ivy.instance'] = '/home/duy/.ivy2/shared';
+    
+        cur['ivy.status'] = 'integration';
+    
+        cur['ivy.status.ivy.instance'] = 'integration';
+    
+        cur['ivy.targets.copied'] = 'false';
+    
+        cur['ivy.version'] = 'non official version';
+    
+        cur['java.class.path'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junitlauncher.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar';
+    
+        cur['java.class.path.ivy.instance'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junitlauncher.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar';
+    
+        cur['java.class.version'] = '65.0';
+    
+        cur['java.class.version.ivy.instance'] = '65.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-21-openjdk-amd64';
+    
+        cur['java.home.ivy.instance'] = '/usr/lib/jvm/java-21-openjdk-amd64';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.io.tmpdir.ivy.instance'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.library.path.ivy.instance'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.name.ivy.instance'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.runtime.version.ivy.instance'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.name.ivy.instance'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '21';
+    
+        cur['java.specification.version.ivy.instance'] = '21';
+    
+        cur['java.vendor'] = 'Ubuntu';
+    
+        cur['java.vendor.ivy.instance'] = 'Ubuntu';
+    
+        cur['java.vendor.url'] = 'https://ubuntu.com/';
+    
+        cur['java.vendor.url.bug'] = 'https://bugs.launchpad.net/ubuntu/+source/openjdk-21';
+    
+        cur['java.vendor.url.bug.ivy.instance'] = 'https://bugs.launchpad.net/ubuntu/+source/openjdk-21';
+    
+        cur['java.vendor.url.ivy.instance'] = 'https://ubuntu.com/';
+    
+        cur['java.version'] = '21.0.12.1';
+    
+        cur['java.version.date'] = '2026-08-18';
+    
+        cur['java.version.date.ivy.instance'] = '2026-08-18';
+    
+        cur['java.version.ivy.instance'] = '21.0.12.1';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.compressedOopsMode.ivy.instance'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode, sharing';
+    
+        cur['java.vm.info.ivy.instance'] = 'mixed mode, sharing';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.name.ivy.instance'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.name.ivy.instance'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '21';
+    
+        cur['java.vm.specification.version.ivy.instance'] = '21';
+    
+        cur['java.vm.vendor'] = 'Ubuntu';
+    
+        cur['java.vm.vendor.ivy.instance'] = 'Ubuntu';
+    
+        cur['java.vm.version'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.vm.version.ivy.instance'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['jdk.debug.ivy.instance'] = 'release';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['line.separator.ivy.instance'] = ' ';
+    
+        cur['native.encoding'] = 'UTF-8';
+    
+        cur['native.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.arch.ivy.instance'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.name.ivy.instance'] = 'Linux';
+    
+        cur['os.version'] = '7.0.0-38-generic';
+    
+        cur['os.version.ivy.instance'] = '7.0.0-38-generic';
+    
+        cur['path.separator'] = ':';
+    
+        cur['path.separator.ivy.instance'] = ':';
+    
+        cur['src'] = '/home/duy/study/cs681/hw03/src/main';
+    
+        cur['src.test'] = '/home/duy/study/cs681/hw03/src/test';
+    
+        cur['stderr.encoding'] = 'UTF-8';
+    
+        cur['stderr.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['stdout.encoding'] = 'UTF-8';
+    
+        cur['stdout.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.arch.data.model.ivy.instance'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-21-openjdk-amd64/lib';
+    
+        cur['sun.boot.library.path.ivy.instance'] = '/usr/lib/jvm/java-21-openjdk-amd64/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.endian.ivy.instance'] = 'little';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.io.unicode.encoding.ivy.instance'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.launch.Launcher -cp  -f build.xml';
+    
+        cur['sun.java.command.ivy.instance'] = 'org.apache.tools.ant.launch.Launcher -cp  -f build.xml';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.java.launcher.ivy.instance'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.jnu.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.management.compiler.ivy.instance'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.country.ivy.instance'] = 'US';
+    
+        cur['user.dir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['user.dir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['user.home'] = '/home/duy';
+    
+        cur['user.home.ivy.instance'] = '/home/duy';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.language.ivy.instance'] = 'en';
+    
+        cur['user.name'] = 'duy';
+    
+        cur['user.name.ivy.instance'] = 'duy';
+    
+        cur['user.timezone'] = 'America/New_York';
+    
+        cur['user.timezone.ivy.instance'] = 'America/New_York';
+    
+    cur = TestCases['umbcs681.util.FileCrawlingVisitorTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/duy/study/cs681/hw03/build.xml';
+    
+        cur['ant.file.fs-stream-junit'] = '/home/duy/study/cs681/hw03/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.fs-stream-junit'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.home.ivy.instance'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '21';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.library.dir.ivy.instance'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'clean';
+    
+        cur['ant.project.invoked-targets'] = 'clean';
+    
+        cur['ant.project.name'] = 'fs-stream-junit';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.14 compiled on September 25 2023';
+    
+        cur['basedir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['basedir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['bin'] = '/home/duy/study/cs681/hw03/build/main';
+    
+        cur['bin.test'] = '/home/duy/study/cs681/hw03/build/test';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['file.separator'] = '/';
+    
+        cur['file.separator.ivy.instance'] = '/';
+    
+        cur['ivy.basedir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.basedir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.build.artifacts.dir'] = '/home/duy/study/cs681/hw03/build/artifacts';
+    
+        cur['ivy.build.artifacts.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/build/artifacts';
+    
+        cur['ivy.buildlist.ivyfilepath'] = 'ivy.xml';
+    
+        cur['ivy.buildlist.ivyfilepath.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.cache.dir'] = '/home/duy/.ivy2/cache';
+    
+        cur['ivy.cache.dir.ivy.instance'] = '/home/duy/.ivy2/cache';
+    
+        cur['ivy.cache.ttl.default'] = '10s';
+    
+        cur['ivy.cache.ttl.default.ivy.instance'] = '10s';
+    
+        cur['ivy.checksums'] = 'sha1,md5';
+    
+        cur['ivy.checksums.ivy.instance'] = 'sha1,md5';
+    
+        cur['ivy.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.conf.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.configurations'] = '*';
+    
+        cur['ivy.configurations.ivy.instance'] = '*';
+    
+        cur['ivy.default.always.check.exact.revision'] = 'false';
+    
+        cur['ivy.default.always.check.exact.revision.ivy.instance'] = 'false';
+    
+        cur['ivy.default.conf.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.conf.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.ivy.user.dir'] = '/home/duy/.ivy2';
+    
+        cur['ivy.default.ivy.user.dir.ivy.instance'] = '/home/duy/.ivy2';
+    
+        cur['ivy.default.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.deliver.ivy.pattern'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.deliver.ivy.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.dep.file'] = 'ivy.xml';
+    
+        cur['ivy.dep.file.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.deps.changed'] = 'false';
+    
+        cur['ivy.distrib.dir'] = '/home/duy/study/cs681/hw03/distrib';
+    
+        cur['ivy.distrib.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib';
+    
+        cur['ivy.home'] = '/home/duy/.ivy2';
+    
+        cur['ivy.home.ivy.instance'] = '/home/duy/.ivy2';
+    
+        cur['ivy.lib'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.lib.dir'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.lib.dir.ivy.instance'] = '/home/duy/study/cs681/hw03/lib';
+    
+        cur['ivy.local.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.root'] = '/home/duy/.ivy2/local';
+    
+        cur['ivy.local.default.root.ivy.instance'] = '/home/duy/.ivy2/local';
+    
+        cur['ivy.log.modules.in.use'] = 'false';
+    
+        cur['ivy.log.modules.in.use.ivy.instance'] = 'false';
+    
+        cur['ivy.module'] = 'cs680';
+    
+        cur['ivy.nb.targets.copied'] = '0';
+    
+        cur['ivy.organisation'] = 'umb.edu';
+    
+        cur['ivy.parents.count'] = '0';
+    
+        cur['ivy.project.dir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.project.dir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['ivy.publish.src.artifacts.pattern'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.publish.src.artifacts.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.report.output.pattern'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.report.output.pattern.ivy.instance'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.resolve.default.type.filter'] = '*';
+    
+        cur['ivy.resolve.default.type.filter.ivy.instance'] = '*';
+    
+        cur['ivy.resolved.configurations'] = 'default';
+    
+        cur['ivy.resolved.file'] = '/home/duy/study/cs681/hw03/ivy.xml';
+    
+        cur['ivy.resolver.default.check.modified'] = 'false';
+    
+        cur['ivy.resolver.default.check.modified.ivy.instance'] = 'false';
+    
+        cur['ivy.retrieve.pattern'] = '/home/duy/study/cs681/hw03/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.retrieve.pattern.ivy.instance'] = '/home/duy/study/cs681/hw03/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.revision'] = 'working@NCLab-9020';
+    
+        cur['ivy.settings.dir'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.file'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.file.ivy.instance'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.url'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.settings.url.ivy.instance'] = 'jar:file:/usr/share/ant/lib/ivy.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.shared.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.root'] = '/home/duy/.ivy2/shared';
+    
+        cur['ivy.shared.default.root.ivy.instance'] = '/home/duy/.ivy2/shared';
+    
+        cur['ivy.status'] = 'integration';
+    
+        cur['ivy.status.ivy.instance'] = 'integration';
+    
+        cur['ivy.targets.copied'] = 'false';
+    
+        cur['ivy.version'] = 'non official version';
+    
+        cur['java.class.path'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junitlauncher.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar';
+    
+        cur['java.class.path.ivy.instance'] = '/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junitlauncher.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-bcel.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ivy.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant.jar';
+    
+        cur['java.class.version'] = '65.0';
+    
+        cur['java.class.version.ivy.instance'] = '65.0';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-21-openjdk-amd64';
+    
+        cur['java.home.ivy.instance'] = '/usr/lib/jvm/java-21-openjdk-amd64';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.io.tmpdir.ivy.instance'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.library.path.ivy.instance'] = '/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.name.ivy.instance'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.runtime.version.ivy.instance'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.name.ivy.instance'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '21';
+    
+        cur['java.specification.version.ivy.instance'] = '21';
+    
+        cur['java.vendor'] = 'Ubuntu';
+    
+        cur['java.vendor.ivy.instance'] = 'Ubuntu';
+    
+        cur['java.vendor.url'] = 'https://ubuntu.com/';
+    
+        cur['java.vendor.url.bug'] = 'https://bugs.launchpad.net/ubuntu/+source/openjdk-21';
+    
+        cur['java.vendor.url.bug.ivy.instance'] = 'https://bugs.launchpad.net/ubuntu/+source/openjdk-21';
+    
+        cur['java.vendor.url.ivy.instance'] = 'https://ubuntu.com/';
+    
+        cur['java.version'] = '21.0.12.1';
+    
+        cur['java.version.date'] = '2026-08-18';
+    
+        cur['java.version.date.ivy.instance'] = '2026-08-18';
+    
+        cur['java.version.ivy.instance'] = '21.0.12.1';
+    
+        cur['java.vm.compressedOopsMode'] = 'Zero based';
+    
+        cur['java.vm.compressedOopsMode.ivy.instance'] = 'Zero based';
+    
+        cur['java.vm.info'] = 'mixed mode, sharing';
+    
+        cur['java.vm.info.ivy.instance'] = 'mixed mode, sharing';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.name.ivy.instance'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.name.ivy.instance'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '21';
+    
+        cur['java.vm.specification.version.ivy.instance'] = '21';
+    
+        cur['java.vm.vendor'] = 'Ubuntu';
+    
+        cur['java.vm.vendor.ivy.instance'] = 'Ubuntu';
+    
+        cur['java.vm.version'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['java.vm.version.ivy.instance'] = '21.0.12.1+1-1-24.04.4-Ubuntu';
+    
+        cur['jdk.debug'] = 'release';
+    
+        cur['jdk.debug.ivy.instance'] = 'release';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['line.separator.ivy.instance'] = ' ';
+    
+        cur['native.encoding'] = 'UTF-8';
+    
+        cur['native.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.arch.ivy.instance'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.name.ivy.instance'] = 'Linux';
+    
+        cur['os.version'] = '7.0.0-38-generic';
+    
+        cur['os.version.ivy.instance'] = '7.0.0-38-generic';
+    
+        cur['path.separator'] = ':';
+    
+        cur['path.separator.ivy.instance'] = ':';
+    
+        cur['src'] = '/home/duy/study/cs681/hw03/src/main';
+    
+        cur['src.test'] = '/home/duy/study/cs681/hw03/src/test';
+    
+        cur['stderr.encoding'] = 'UTF-8';
+    
+        cur['stderr.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['stdout.encoding'] = 'UTF-8';
+    
+        cur['stdout.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.arch.data.model.ivy.instance'] = '64';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-21-openjdk-amd64/lib';
+    
+        cur['sun.boot.library.path.ivy.instance'] = '/usr/lib/jvm/java-21-openjdk-amd64/lib';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.endian.ivy.instance'] = 'little';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.io.unicode.encoding.ivy.instance'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.launch.Launcher -cp  -f build.xml';
+    
+        cur['sun.java.command.ivy.instance'] = 'org.apache.tools.ant.launch.Launcher -cp  -f build.xml';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.java.launcher.ivy.instance'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.jnu.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.management.compiler.ivy.instance'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.country.ivy.instance'] = 'US';
+    
+        cur['user.dir'] = '/home/duy/study/cs681/hw03';
+    
+        cur['user.dir.ivy.instance'] = '/home/duy/study/cs681/hw03';
+    
+        cur['user.home'] = '/home/duy';
+    
+        cur['user.home.ivy.instance'] = '/home/duy';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.language.ivy.instance'] = 'en';
+    
+        cur['user.name'] = 'duy';
+    
+        cur['user.name.ivy.instance'] = 'duy';
+    
+        cur['user.timezone'] = 'America/New_York';
+    
+        cur['user.timezone.ivy.instance'] = 'America/New_York';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+    </head>
+    <body>
+        <a name="top"></a>
+        <h1>Unit Test Results.</h1>
+        <table width="100%">
+            <tr>
+                <td align="left"></td><td align="right">Designed for use with <a href="https://www.junit.org">JUnit</a> and <a href="https://ant.apache.org/ant">Ant</a>.</td>
+            </tr>
+        </table>
+        <hr size="1">
+        <h2>Summary</h2>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Tests</th><th>Failures</th><th>Errors</th><th>Skipped</th><th>Success rate</th><th>Time</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>35</td><td>0</td><td>0</td><td>0</td><td>100.00%</td><td>0.143</td>
+            </tr>
+        </table>
+        <table border="0" width="95%">
+            <tr>
+                <td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+            </tr>
+        </table>
+        <hr size="1" width="95%" align="left">
+        <h2>Packages</h2>
+                Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#umbcs681.fs">umbcs681.fs</a></td><td>27</td><td>0</td><td>0</td><td>0</td><td>0.127</td><td>2026-10-22T14:46:45</td><td></td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#umbcs681.util">umbcs681.util</a></td><td>8</td><td>0</td><td>0</td><td>0</td><td>0.016</td><td>2026-10-22T14:46:45</td><td></td>
+            </tr>
+        </table>
+        <hr size="1" width="95%" align="left">
+        <a name="umbcs681.fs"></a>
+        <h3>Package umbcs681.fs</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#DirectoryTest">DirectoryTest</a></td><td>11</td><td></td><td>0</td><td>0</td><td>0.106</td><td>2026-10-22T14:46:45</td><td></td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#FileSystemTest">FileSystemTest</a></td><td>4</td><td></td><td>0</td><td>0</td><td>0.006</td><td>2026-10-22T14:46:45</td><td></td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#FileTest">FileTest</a></td><td>9</td><td></td><td>0</td><td>0</td><td>0.011</td><td>2026-10-22T14:46:45</td><td></td>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#LinkTest">LinkTest</a></td><td>3</td><td></td><td>0</td><td>0</td><td>0.004</td><td>2026-10-22T14:46:45</td><td></td>
+            </tr>
+        </table>
+        <a href="#top">Back to top</a>
+        <p></p>
+        <p></p>
+        <a name="umbcs681.util"></a>
+        <h3>Package umbcs681.util</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+            </tr>
+            <tr valign="top" class="">
+                <td><a href="#FileCrawlingVisitorTest">FileCrawlingVisitorTest</a></td><td>8</td><td></td><td>0</td><td>0</td><td>0.016</td><td>2026-10-22T14:46:45</td><td></td>
+            </tr>
+        </table>
+        <a href="#top">Back to top</a>
+        <p></p>
+        <p></p>
+        <hr size="1" width="95%" align="left">
+        <a name="DirectoryTest"></a>
+        <h3>TestCase DirectoryTest</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testUmbcs681GetChildrenReturnHw1andReadme()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testUmbcs681CountChildren()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testDirUmbcs681EqualityCheck()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testDirSrcEqualityCheck()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testUmbcs681GetFileReturn1File()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testUmbcs681GetSubDirReturn1SubDir()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testUmbcs681GetTotalSizeReturn60()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testUmbcs681IsDirectory()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testDirHw1EqualityCheck()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testReadmeIsDirectory()</td><td>Success</td><td></td><td>0.002</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testNewDirHw2ConstructorAppendedToParent()</td><td>Success</td><td></td><td>0.018</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('umbcs681.fs.DirectoryTest');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="FileCrawlingVisitorTest"></a>
+        <h3>TestCase FileCrawlingVisitorTest</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFilesSummarize()</td><td>Success</td><td></td><td>0.003</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileCrawlingVisitorGetAFile()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileCrawlVisiterGetFileAfterOct10()</td><td>Success</td><td></td><td>0.002</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileCrawlingVisitorConstructorReturn0File()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileCrawlingVisitorRootDirReturn4Files()</td><td>Success</td><td></td><td>0.002</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileCrawlVisiterGetXMLFile()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileCrawlVisiterGetJavaFile()</td><td>Success</td><td></td><td>0.002</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileCrawlingVisitorHw1DirReturn3Files()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('umbcs681.util.FileCrawlingVisitorTest');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="FileSystemTest"></a>
+        <h3>TestCase FileSystemTest</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testGetRootDirsReturnsReturnUmbcs681()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testGetRootDirs()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testAppendRootDirsWithANewRoot()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testSingletonReturnsSameInstance()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('umbcs681.fs.FileSystemTest');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="FileTest"></a>
+        <h3>TestCase FileTest</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileReadmeEqualityCheck()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileAEqualityCheck()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileBuildEqualityCheck()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileBEqualityCheck()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>gettersReturnConstructorValues()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileAExtensionJava()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileAIsDirectory()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileBuildExtensionJava()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testFileReadmeExtensionJava()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('umbcs681.fs.FileTest');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a><a name="LinkTest"></a>
+        <h3>TestCase LinkTest</h3>
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+            <tr valign="top">
+                <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+            </tr>
+            <tr valign="top" class="">
+                <td>testLinkRmEquality()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testGetTarget()</td><td>Success</td><td></td><td>0.000</td>
+            </tr>
+            <tr valign="top" class="">
+                <td>testIsDirectoryFalse()</td><td>Success</td><td></td><td>0.001</td>
+            </tr>
+        </table>
+        <div class="Properties">
+            <a href="javascript:displayProperties('umbcs681.fs.LinkTest');">
+                    Properties &raquo;
+                </a>
+        </div>
+        <p></p>
+        <a href="#top">Back to top</a>
+    </body>
+</html>

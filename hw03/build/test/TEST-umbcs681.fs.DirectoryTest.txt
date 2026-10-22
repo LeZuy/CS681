@@ -1,0 +1,13 @@
+Testcase: umbcs681.fs.DirectoryTest
+Test: testNewDirHw2ConstructorAppendedToParent() took 18 milli sec(s)
+Test: testReadmeIsDirectory() took 2 milli sec(s)
+Test: testUmbcs681GetTotalSizeReturn60() took 1 milli sec(s)
+Test: testUmbcs681GetChildrenReturnHw1andReadme() took 1 milli sec(s)
+Test: testUmbcs681GetSubDirReturn1SubDir() took 1 milli sec(s)
+Test: testDirHw1EqualityCheck() took 0 milli sec(s)
+Test: testDirSrcEqualityCheck() took 0 milli sec(s)
+Test: testUmbcs681CountChildren() took 1 milli sec(s)
+Test: testDirUmbcs681EqualityCheck() took 0 milli sec(s)
+Test: testUmbcs681GetFileReturn1File() took 0 milli sec(s)
+Test: testUmbcs681IsDirectory() took 1 milli sec(s)
+Tests run: 11, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 55 milli sec(s)
