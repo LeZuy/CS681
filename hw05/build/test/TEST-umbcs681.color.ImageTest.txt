@@ -1,0 +1,6 @@
+Testcase: umbcs681.color.ImageTest
+Test: testZeroSizedImage() took 75 milli sec(s)
+Test: testSetColorAtXYTwice() took 45 milli sec(s)
+Test: testSetColorAtXY() took 29 milli sec(s)
+Test: testImageGettersReturnConstructorValues() took 62 milli sec(s)
+Tests run: 4, Failures: 0, Skipped: 0, Aborted: 0, Time elapsed: 212 milli sec(s)
