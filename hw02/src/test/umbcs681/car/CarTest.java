@@ -1,0 +1,152 @@
+package umbcs681.car;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Comparator;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.*;
+
+public class CarTest {
+    
+    private static ArrayList<Car> usedCars;
+
+    @BeforeAll
+    public static void setup() {
+        usedCars = TestFixtureInitializer.createUsedCars();
+    }
+
+    @Test
+    void testCarGettersReturnConstructorValues() {
+        Car c = new Car("Toyota", "A", 16100, 40000, 2018);   
+        assertEquals("Toyota", c.getModel());
+        assertEquals("A", c.getMake());
+        assertEquals(16100f, c.getPrice());
+        assertEquals(40000, c.getMileage());
+        assertEquals(2018, c.getYear());
+        assertEquals(0, c.getDominationCount());
+    }
+
+    @Test
+    public void testPriceComparator() {
+        String[] expectedCarsByPrice = {"D", "B", "A", "C", "E"};
+        String[] sortedCarsByPrice = usedCars.stream()
+            .sorted(Comparator.comparing(Car::getPrice))
+            .map(Car::getMake)
+            .toArray(String[]::new);
+        assertArrayEquals(expectedCarsByPrice, sortedCarsByPrice);
+    }
+
+    @Test
+    public void testYearComparator() {
+        String[] expectedCarsByYear = {"E", "D", "C", "B", "A"};
+        String[] sortedCarsByYear = usedCars.stream()
+            .sorted((c1, c2) -> c2.getYear() - c1.getYear())
+            .map(Car::getMake)
+            .toArray(String[]::new);
+        assertArrayEquals(expectedCarsByYear, sortedCarsByYear);
+    }
+
+    @Test
+    public void testMileageComparator() {
+        String[] expectedCarsByMileage = {"D", "B", "A", "C", "E"};
+        String[] sortedCarsByMileage = usedCars.stream()
+            .sorted(Comparator.comparing(Car::getMileage))
+            .map(Car::getMake)
+            .toArray(String[]::new);
+        assertArrayEquals(expectedCarsByMileage, sortedCarsByMileage);
+    }
+
+    @Test
+    void testDominateWithLowerPrice() {
+        assertTrue(new Car("Toyota", "X", 90f, 100, 2020).dominates(new Car("Mazda", "B", 100f, 100, 2020)));
+    }
+
+    @Test
+    void testDominateWithLowerMillage() {
+        assertTrue(new Car("Toyota", "X",  100f, 90, 2020).dominates(new Car("Mazda", "B", 100f, 100, 2020)));
+    }
+
+    @Test
+    void testDominateWithEarlierYear() {
+        assertTrue(new Car("Toyota", "X",  100f, 90, 2021).dominates(new Car("Mazda", "B", 100f, 100, 2020)));
+    }
+
+    @Test
+    void testNoCarsDominateWithMake() {
+        assertFalse(new Car("Toyota", "B", 100f, 100, 2020).dominates(new Car("Mazda", "X", 100f, 100, 2020)));
+        assertFalse(new Car("Mazda", "X", 100f, 100, 2020).dominates(new Car("Toyota", "B", 100f, 100, 2020)));
+    }
+
+    @Test
+    void testDominationSetter() {
+        Car c = new Car("Mazda", "X", 100, 100, 2020);
+        c.setDominationCount(99);
+        c.computeDominationCount(new ArrayList<>());
+        assertEquals(0, c.getDominationCount());
+    }
+
+    @Test
+    void testDominationCarsSameValue() {
+        Car c1 = new Car("Mazda", "X", 100, 100, 2020);
+        Car c2 = new Car("Mazda", "Y", 100, 100, 2020);
+        ArrayList<Car> cars = new ArrayList<>(List.of(c1, c2));
+        c1.computeDominationCount(cars);
+        c2.computeDominationCount(cars);
+        assertEquals(0, c1.getDominationCount());
+        assertEquals(0, c2.getDominationCount());
+    }
+
+    @Test
+    void testDominateCarOutOfList() {
+        Car target = new Car("Vinfast", "V", 16000, 39000, 2019);
+        target.computeDominationCount(usedCars);
+        assertEquals(2, target.getDominationCount());
+    }
+
+    @Test
+    void testDominationCountIsIdempotent() {
+        Car a = usedCars.get(0);
+        a.computeDominationCount(usedCars);
+        a.computeDominationCount(usedCars);
+        assertEquals(2, a.getDominationCount());
+    }
+
+    @Test
+    void testCarDominateItself() {
+        Car c = new Car("Toyota", "X",100, 100, 2020);
+        c.computeDominationCount(new ArrayList<>(List.of(c)));
+        assertEquals(0, c.getDominationCount());
+    }
+
+    // /*
+    // Domination count:
+    // A: 2
+    // B: 1
+    // C: 1
+    // D: 0
+    // E: 0
+    // */
+
+    @Test
+    public void testParetoComparator() {
+        usedCars.forEach(car -> car.computeDominationCount(usedCars));
+        String[] expectedCarsByPareto = {"D", "E", "B", "C", "A"};
+        String[] sortedCarsByPareto = usedCars.stream()
+            .sorted(Comparator.comparing(Car::getDominationCount)
+                            .thenComparing(Car::getMake))
+            .map(Car::getMake)
+            .toArray(String[]::new);
+        assertArrayEquals(expectedCarsByPareto, sortedCarsByPareto);
+    }
+
+    @Test
+    void testParetoZeroCounts() {
+        ArrayList<Car> cars = new ArrayList<>(List.of(
+            new Car("Mazda", "A",100, 200, 2020),  
+            new Car("Toyota", "B",200, 100, 2020),  
+            new Car("Honda", "C",150, 150, 2022))); 
+        cars.forEach(c -> c.computeDominationCount(cars));
+        cars.forEach(c -> assertEquals(0, c.getDominationCount(), c.getMake()));
+    }
+}
